@@ -2,27 +2,27 @@
 class MosEisleyPreview < Formula
   desc "Persistent multi-provider coding and review conversation"
   homepage "https://github.com/joshuamyers22/mos-eisley"
-  version "0.1.0-rc.1"
+  version "0.1.0-rc.2"
   skip_clean "libexec"
   preserve_rpath
   on_macos do
     on_arm do
-      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.1/mos-0.1.0-rc.1-macos-aarch64.tar.gz"
-      sha256 "ecc9a71b936b67d9e5e8f3f402d9f2c1033e47bbc78e5334bf4e9e3ec78b4161"
+      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.2/mos-0.1.0-rc.2-macos-aarch64.tar.gz"
+      sha256 "5d977676119054448b2c388a0be66604813a6ec02e7a6339b7c650338eeb82e6"
     end
     on_intel do
-      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.1/mos-0.1.0-rc.1-macos-x86_64.tar.gz"
-      sha256 "69604167005b4e8108d3e7632c423c17952f1b41c439258a2040bef5e5ec5b31"
+      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.2/mos-0.1.0-rc.2-macos-x86_64.tar.gz"
+      sha256 "18f4d1f0172e0837441bd9ef0f586bbd5321b85b74fe4c223d3e6fc486af0ee8"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.1/mos-0.1.0-rc.1-linux-aarch64.tar.gz"
-      sha256 "56581dc0414154002c57107c14090a38452acec63ab3f19103e1bda3fb964c9c"
+      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.2/mos-0.1.0-rc.2-linux-aarch64.tar.gz"
+      sha256 "f225f4c344d651cd905d3a007794d8c06fecad5dc2e8b18a211fc1e116e1f69a"
     end
     on_intel do
-      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.1/mos-0.1.0-rc.1-linux-x86_64.tar.gz"
-      sha256 "af01f04a9c5c5c3a1173b71d752f9a6d704d4979e4bef94993c3b5b17f64a2e9"
+      url "https://github.com/joshuamyers22/mos-eisley/releases/download/v0.1.0-rc.2/mos-0.1.0-rc.2-linux-x86_64.tar.gz"
+      sha256 "9d0a869983e1f003fb0d2e4f8cbd0980c061663a72823ea740162a7ed521b418"
     end
   end
   def install
